@@ -2,7 +2,7 @@ import numpy as np
 import random
 import scipy.io
 
-from algorithms.feature_extraction.step_extraction import step_extraction
+from algorithm.feature_extraction.step_extraction import step_extraction
 
 
 def simulate_missing_data(data, missing_data_percentage):
